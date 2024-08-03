@@ -2,21 +2,6 @@
 
 ## Introduction
 
-This README.md file provides a comprehensive guide to understanding and using the `useState` hook in React. Whether you're a beginner or an experienced developer, this documentation will help you make the most out of this essential React feature.
-
-## Table of Contents
-
-1. [Overview](#overview)
-2. [Basic Usage](#basic-usage)
-3. [Updating State](#updating-state)
-4. [Functional Updates](#functional-updates)
-5. [Using Objects](#using-objects)
-6. [Using Arrays](#using-arrays)
-7. [Previous State](#previous-state)
-8. [Additional Tips](#additional-tips)
-
-## Overview
-
 The `useState` hook is a fundamental part of React's state management system. It allows you to add state to functional components, making it possible to store and update data within these components.
 
 ## Basic Usage

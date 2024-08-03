@@ -2,20 +2,6 @@
 
 ## Introduction
 
-This README.md file provides an in-depth guide on using the `useEffect` hook in React. The `useEffect` hook is a crucial part of React's component lifecycle, allowing you to manage side effects in your functional components. Whether you're new to React or a seasoned developer, this documentation will help you understand and utilize this essential hook effectively.
-
-## Table of Contents
-
-1. [Overview](#overview)
-2. [Basic Usage](#basic-usage)
-3. [Dependency Array](#dependency-array)
-4. [Cleaning Up Effects](#cleaning-up-effects)
-5. [Common Use Cases](#common-use-cases)
-6. [Best Practices](#best-practices)
-7. [Additional Resources](#additional-resources)
-
-## Overview
-
 The `useEffect` hook in React is used to perform side effects in your functional components. These side effects may include data fetching, DOM manipulation, or any actions that need to occur after the component has rendered.
 
 ## Basic Usage
