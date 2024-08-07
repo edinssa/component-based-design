@@ -1,0 +1,23 @@
+.footer {
+    background-color: aqua;
+    display:contents; 
+}
+
+.right {
+    background-color: rgb(178, 187, 228);
+    width: 100px;
+    height: 30px;
+  }
+
+  .center {
+    background-color:rgb(240, 235, 82);
+    width: 100px;
+    height: 30px;   
+  }
+
+  .left {
+    background-color: rgb(236, 164, 153);
+    width: 100px;
+    height: 30px;
+   
+  }
