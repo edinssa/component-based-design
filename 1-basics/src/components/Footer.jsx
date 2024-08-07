@@ -12,7 +12,7 @@ export const Footer = ({name, text}) => {
     </div>
     )
 }
-// style = {{backgroundColor: color}} can be also added in the button above as style.
+// style = {{backgroundColor: color}} can be also added in the Footer component like the name property.
 // validation of properties
 
 Footer.propTypes = {

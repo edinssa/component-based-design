@@ -1,0 +1,27 @@
+{
+  "name": "exit",
+  "version": "1.0.0",
+  "description": "Learn to design, plan and build frontend applications using a Component-Based approach. You will explore the ReactJS library which is designed to make Component-Based design easy and efficient.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "vite:dev": "vite"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "format": "^0.2.2",
+    "latest-version": "^9.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.0",
+    "prettier": "^3.3.3",
+    "vite": "^4.0.0"
+  }
+}
