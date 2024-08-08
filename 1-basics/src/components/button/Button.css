@@ -1,9 +1,21 @@
-.btn {
-  background-color: bisque;
-  color: gray;
-  border: 1px solid grey;
-  border-radius: 5px;
-  padding: 5px 15px;
-  height: 30px;
-  width: 200px;
+.btn{
+  display: inline;
+} 
+
+.left{
+  background-color: rgb(85, 189, 189);
+  height: 40px;
+  width: 150px;
 }
+
+.center{
+  background-color: rgb(166, 130, 199);
+  height: 40px;
+  width: 150px;
+}
+
+.right{
+  background-color: rgb(165, 163, 42);
+  height: 40px;
+  width: 150px;
+} 
