@@ -8,8 +8,9 @@ const App = () => (
   <>
     <header>
       <Header/>
-      <Button text="Click me"color="blue"/>
-      <Button text="Clicked" color="red"/>
+      <Button name="left" text="Previous"/>
+      <Button name="center" text="Reset"/>
+      <Button name="right" text="Next"/>
     </header>
     <main>
       <List/>
