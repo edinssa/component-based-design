@@ -2,10 +2,15 @@ import './Button.css';
 
  const Button = (props) => {
   const  {
-    text,color
+    name,text
   }=props
 
-  return <button className='btn' style={{color:color}}>{text} </button>;
-};
+  return (
+    <div className='btn'>
+      <button className={name}>{text}</button>
+    </div>
+  )
+ 
+  };
 
 export default Button;
