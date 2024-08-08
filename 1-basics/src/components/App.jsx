@@ -2,6 +2,7 @@ import List from './list/List';
 import Button from './button/Button';
 
 import './App.css';
+import Footer from './footer/Footer';
 
 export const App = () => (
   <>
@@ -13,5 +14,6 @@ export const App = () => (
     <main>
       <List />
     </main>
+    <Footer name="primary" text="click"/>
   </>
 );
