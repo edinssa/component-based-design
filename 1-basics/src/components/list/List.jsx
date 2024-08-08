@@ -1,6 +1,6 @@
 import './List.css';
 
-const list = ['Appel', 'Pear', 'Plums', 'Peach','Grape', 'Cherry']
+const list = ['Appel', 'Pear', 'Plums', 'Peach','Grape', 'Cherry', 'Cherries']
 
  const List = () => (
   <div className='li'>
