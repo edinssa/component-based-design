@@ -1,12 +1,13 @@
 import './Footer.css';
 
-
- const Footer = ({name, text}) => {
+ const Footer = ({text, color, height, width}) => {
+  
     return (
-    <footer className='footer'>
-        <button className={name}>{text}</button>
-    </footer>
+    <div className='footer'>
+        <button style={{backgroundColor:color, height, width}}>{text}</button>
+    </div>
     )
 }
+
 
 export default Footer;
