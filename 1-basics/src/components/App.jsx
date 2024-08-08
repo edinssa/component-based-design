@@ -1,17 +1,23 @@
 import List from './list/List';
 import Button from './button/Button';
+import Header from './header/Header';
+import Footer from './footer/Footer';
 
-import './App.css';
 
-export const App = () => (
+const App = () => (
   <>
     <header>
-      <h1>Pokemon app</h1>
-      <Button text="Click me"/>
+      <Header/>
+      <Button text="Click me"color="blue"/>
       <Button text="Clicked" color="red"/>
     </header>
     <main>
-      <List />
+      <List/>
     </main>
+    <footer>
+      <Footer color="grey"text="Click to select" height='40px' width='150px'/>
+    </footer> 
   </>
 );
+
+export default App;
